@@ -1,9 +1,9 @@
-name: Deploy React App to GitHub Pages
+name: Deploy Vite React App to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Deploy only when pushing to the main branch (adjust if needed)
+      - master  # Adjust if needed
 
 jobs:
   build-and-deploy:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          ref: master
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -21,13 +23,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build the React app
+      - name: Build the Vite app
         run: npm run build
+
+      - name: List build directory
+        run: ls -la ./dist  # Vite outputs build files in the 'dist' folder
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          cname: https://anantakandel.com.np  
+          publish_dir: ./dist  # Vite uses the 'dist' folder for builds
+          cname: anantakandel.com.np
+
 
