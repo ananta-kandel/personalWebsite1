@@ -3,7 +3,7 @@ name: Deploy Vite React App to GitHub Pages
 on:
   push:
     branches:
-      - master # Deploy only when pushing to the main branch (adjust if needed)
+      - main # Deploy only when pushing to the main branch (adjust if needed)
 
 jobs:
   build-and-deploy:
@@ -12,8 +12,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          ref: master
+     
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
