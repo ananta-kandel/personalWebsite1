@@ -1,6 +1,9 @@
 import React from 'react';
 import { Home, User, Code, Briefcase, Video, Github, Instagram, Linkedin, Calendar, Phone, Mail, Download, ExternalLink } from 'lucide-react';
 import Navbar from './Navbar';
+import Project from './Project';
+import Skills from './Skills';
+import CertificateCard from './Cerificate';
 const HomePage = () => {
   return (
     <div className="flex min-h-screen bg-gray-900 text-white">
@@ -38,40 +41,30 @@ const HomePage = () => {
           </section>
 
           <section id="about" className="mb-16 bg-gray-900 py-12 px-6">
-  {/* Logo */}
- 
-
-  {/* Headings */}
-  <h2 className="text-center text-xl font-medium mb-2 text-gray-400">Get To Know More</h2>
-  <h3 className="text-center text-4xl font-extrabold text-red-500 mb-10">About Me</h3>
-
-  {/* Experience and Education Cards */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-    <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
-    
-      <h4 className="text-2xl font-bold text-gray-200 mb-2">2+ Years Experience</h4>
-      <p className="text-gray-400">Development</p>
-    </div>
-    <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
-      <div className="text-red-500 mb-4">
-        <svg className="w-12 h-12" /* Insert your SVG icon or image here */></svg>
-      </div>
-      <h4 className="text-2xl font-bold text-gray-200 mb-2">BSc. CSIT</h4>
-      <p className="text-gray-400">Tribhuvan University</p>
-    </div>
-  </div>
-
-  {/* About Me Paragraph */}
-  <p className="text-gray-300 text-center text-lg leading-relaxed max-w-2xl mx-auto md:block hidden">
-    I'm a passionate Full Stack Developer with over 2 years of experience in building web applications. 
-    I graduated with a BSc in Computer Science and Information Technology from Tribhuvan University, 
-    and I have developed a strong foundation in both front-end and back-end development. 
-    My goal is to create scalable, user-friendly solutions that solve real-world problems efficiently.
-  </p>
-</section>
-        </div>
-      </main>
-    </div>
+            <h2 className="text-center text-xl font-medium mb-2 text-gray-400">Get To Know More</h2>
+            <h3 className="text-center text-4xl font-extrabold text-red-500 mb-10">About Me</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
+                <h4 className="text-2xl font-bold text-gray-200 mb-2">Loves</h4>
+                <p className="text-gray-400">Developing Systems</p>
+              </div>
+              <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
+                <h4 className="text-2xl font-bold text-gray-200 mb-2">BSc. CSIT</h4>
+                <p className="text-gray-400">Tribhuvan University</p>
+              </div>
+            </div>
+            <p className="text-gray-300 text-center text-lg leading-relaxed max-w-2xl mx-auto md:block hidden">
+              I'm a passionate Full Stack Developer with  experience in building web applications. 
+              I graduated with a BSc in Computer Science and Information Technology from Tribhuvan University, 
+              and I have developed a strong foundation in both front-end and back-end development. 
+              My goal is to create scalable, user-friendly solutions that solve real-world problems efficiently.
+            </p>
+          </section>
+<Project />
+<Skills />
+</div>
+</main>
+</div>
   );
 };
 
