@@ -67,17 +67,17 @@ const Navbar = () => {
           <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Socials</h3>
           <ul className="mt-4 space-y-2">
             <li>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 p-3  text-gray-300 hover:text-white">
+              <a href="https://github.com/ananta-kandel" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 p-3  text-gray-300 hover:text-white">
                 <Github size={20} color="#94a3b8" /><span>Github</span>
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 p-5  text-gray-300 hover:text-white">
+              <a href="https://www.instagram.com/anantakandel12/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 p-5  text-gray-300 hover:text-white">
                 <Instagram size={20} color="#d946ef" /><span>Instagram</span>
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 p-5  text-gray-300 hover:text-white">
+              <a href="https://www.linkedin.com/in/anantakandel/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 p-5  text-gray-300 hover:text-white">
                 <Linkedin size={20} color="#06b6d4" /><span>Linkedin</span>
               </a>
             </li>
