@@ -1,6 +1,7 @@
 import React from 'react'
 import project2 from "../assets/project.png"
 import project3 from "../assets/EmployeeApi.png"
+import project4 from "../assets/project3.png"
 const Project = () => {
   return (
     <section id="projects" className="mb-16 bg-gray-900 py-12 px-6">
@@ -117,7 +118,42 @@ const Project = () => {
     </div>
    
   </div>
-
+  <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col hover:shadow-2xl transition-shadow duration-300 relative">
+    <img
+     src = {project4}
+      alt="Project 1"
+      className="w-full h-48 object-cover rounded-lg mb-4"
+    />
+    <h4 className="text-2xl font-bold text-gray-200 mb-2">Income Expense Tracker</h4>
+    <p className="text-gray-400 mb-4">
+      In this application user allow to create their ownn account. User can add expense ammount or income ammount on this system. user can see statistics as well.
+    </p>
+    
+    {/* Hover popup with GitHub link */}
+    <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 bg-gray-900 bg-opacity-50 transition-opacity duration-300">
+      <a
+        href="https://github.com/ananta-kandel/Income_Expense_Tracker" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white text-xl font-bold"
+      >
+        View on GitHub
+      </a>
+    </div>
+  
+    {/* Button for showing tech stack */}
+    <div>
+    <button className="m-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
+        NODE,EXPRESS
+    </button>
+    <button className="mt-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
+        MONGODB
+    </button>
+    <button className="mt-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
+        REACT
+    </button>
+    </div>
+    </div>
      </div>
   </section>
   )
