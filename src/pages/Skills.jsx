@@ -152,8 +152,22 @@ const Skills = () => {
     <p className="mt-4 text-lg font-semibold text-gray-200 tracking-wide uppercase">
       DOCKER
     </p>
+
   </div>
+  <div className="flex flex-col items-center">
+    <img
+    src='https://miro.medium.com/v2/resize:fit:400/1*txwKGJOoQ2W0ka_9htbu0Q.png'
+      alt="DevOps"
+      className="w-42 h-42 object-cover rounded-full transition-transform transform hover:scale-110 hover:rotate-12 duration-300 ease-in-out"
+    />
+    <p className="mt-4 text-lg font-semibold text-gray-200 tracking-wide uppercase">
+       GitHub Actions
+    </p>
+    
   </div>
+  
+  </div>
+  
     </div>
   </section>
   )
