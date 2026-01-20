@@ -1,7 +1,7 @@
 import React from 'react'
-import project2 from "../assets/project.png"
-import project3 from "../assets/EmployeeApi.png"
-import project4 from "../assets/project3.png"
+import project2 from "../assets/nginx.png"
+import project3 from "../assets/CICD.png"
+import project4 from "../assets/teraform.png"
 const Project = () => {
   return (
     <section id="projects" className="mb-16 bg-gray-900 py-12 px-6">
@@ -16,15 +16,19 @@ const Project = () => {
       alt="Project 1"
       className="w-full h-48 object-cover rounded-lg mb-4"
     />
-    <h4 className="text-2xl font-bold text-gray-200 mb-2">User Authentication And Authorization using .NET Core</h4>
-    <p className="text-gray-400 mb-4">
-      In this application user can register and login to the system. While login, the user generates a JWT token, which is used for authentication and identity roles are inserted into the JWT token as a claim. Those claims are used for authorization using roles.
-    </p>
+    <h4 className="text-2xl font-bold text-gray-200 mb-2">CICD-on-Cpanel-account-using-scp</h4>
+<p className="text-gray-400 mb-4">
+  A CI/CD pipeline that automates deployment to a shared cPanel hosting environment using SCP. 
+  The pipeline pulls changes from GitHub, transfers build artifacts to the server via secure copy, 
+  and streamlines deployment without needing manual file uploads or FTP. 
+  This project showcases automation in constrained hosting environments where traditional DevOps tooling is limited.
+</p>
+
     
     {/* Hover popup with GitHub link */}
     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 bg-gray-900 bg-opacity-50 transition-opacity duration-300">
       <a
-        href="https://github.com/ananta-kandel/jwtuserAuthenticationAndAuthorizationDotNet" // Replace with actual GitHub link
+        href="https://github.com/ananta-kandel/CICD-on-Cpanel-account-using-scp" // Replace with actual GitHub link
         target="_blank"
         rel="noopener noreferrer"
         className="text-white text-xl font-bold"
@@ -36,10 +40,10 @@ const Project = () => {
     {/* Button for showing tech stack */}
     <div>
     <button className="m-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        .NET CORE
+        cPanel
     </button>
     <button className="mt-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        SQL SERVER
+        Github Action
     </button>
     </div>
   </div>
@@ -50,15 +54,18 @@ const Project = () => {
       alt="Project 1"
       className="w-full h-48 object-cover rounded-lg mb-4"
     />
-    <h4 className="text-2xl font-bold text-gray-200 mb-2">Task Management System</h4>
-    <p className="text-gray-400 mb-4">
-      In this application user are allowed to create categories and create task according to categories. Admin can see all users tasks and categories. User can delete their tasks , update their tasks.They can update categories name as well.
-    </p>
+    <h4 className="text-2xl font-bold text-gray-200 mb-2">Load-Balancing-with-Nginx-and-Docker-Containers-in-VM</h4>
+<p className="text-gray-400 mb-4">
+  A load-balanced environment running multiple Docker containers behind Nginx acting as a reverse proxy. 
+  The setup demonstrates distributing incoming traffic across multiple application instances to improve reliability and performance. 
+  This project shows how containerization and load balancing can be used together in a virtual machine environment for better scalability.
+</p>
+
     
     {/* Hover popup with GitHub link */}
     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 bg-gray-900 bg-opacity-50 transition-opacity duration-300">
       <a
-        href="https://github.com/ananta-kandel/TaskManagementSystem" // Replace with actual GitHub link
+        href="https://github.com/ananta-kandel/Load-Balancing-with-Nginx-and-Docker-Containers-in-VM-" // Replace with actual GitHub link
         target="_blank"
         rel="noopener noreferrer"
         className="text-white text-xl font-bold"
@@ -70,13 +77,10 @@ const Project = () => {
     {/* Button for showing tech stack */}
     <div>
     <button className="m-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        .NET CORE
+        VPS
     </button>
     <button className="mt-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        SQL SERVER
-    </button>
-    <button className="mt-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        REACT
+         NGINX
     </button>
     </div>
    
@@ -90,15 +94,14 @@ const Project = () => {
       alt="Project 1"
       className="w-full h-48 object-cover rounded-lg mb-4"
     />
-    <h4 className="text-2xl font-bold text-gray-200 mb-2">Employee API</h4>
-    <p className="text-gray-400 mb-4">
-      From this project learned Basic CRUD operations using .NET CORE.
-    </p>
-    
+    <h4 className="text-2xl font-bold text-gray-200 mb-2">CICDOTNETAPPLICATION</h4>
+<p className="text-gray-400 mb-4">
+  A .NET application configured with a CI/CD pipeline using GitHub Actions. The project demonstrates automated build, test, and deployment workflows — showcasing how DevOps practices can be applied to .NET applications.
+</p>
     {/* Hover popup with GitHub link */}
     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 bg-gray-900 bg-opacity-50 transition-opacity duration-300">
       <a
-        href="https://github.com/ananta-kandel/EmployeeApi" // Replace with actual GitHub link
+        href="https://github.com/ananta-kandel/CICDOTNETAPPLICATION" // Replace with actual GitHub link
         target="_blank"
         rel="noopener noreferrer"
         className="text-white text-xl font-bold"
@@ -110,10 +113,10 @@ const Project = () => {
     {/* Button for showing tech stack */}
     <div>
     <button className="m-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        .NET CORE
+        DOCKER
     </button>
     <button className="mt-4 py-2 px-4 text-sm font-semibold text-white bg-gray-700 hover:bg-gray-600 rounded-lg transition duration-200">
-        SQL SERVER
+        Github Action
     </button>
     </div>
    
@@ -124,15 +127,16 @@ const Project = () => {
       alt="Project 1"
       className="w-full h-48 object-cover rounded-lg mb-4"
     />
-    <h4 className="text-2xl font-bold text-gray-200 mb-2">Income Expense Tracker</h4>
-    <p className="text-gray-400 mb-4">
-      In this application user allow to create their ownn account. User can add expense ammount or income ammount on this system. user can see statistics as well.
-    </p>
+    <h4 className="text-2xl font-bold text-gray-200 mb-2">AWS-EC2-Instance-Deployment-with-Terraform</h4>
+<p className="text-gray-400 mb-4">
+  A Terraform-based project to provision and manage AWS EC2 instances. This setup demonstrates Infrastructure as Code (IaC) practices, enabling automated, repeatable, and version-controlled cloud deployments.
+</p>
+
     
     {/* Hover popup with GitHub link */}
     <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 bg-gray-900 bg-opacity-50 transition-opacity duration-300">
       <a
-        href="https://github.com/ananta-kandel/Income_Expense_Tracker" 
+        href="https://github.com/ananta-kandel/AWS-EC2-Instance-Deployment-with-Terraform" 
         target="_blank"
         rel="noopener noreferrer"
         className="text-white text-xl font-bold"

@@ -26,7 +26,7 @@ const HomePage = () => {
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500">
                   Ananta Kandel
                 </h1>
-                <p className="text-lg md:text-xl lg:text-2xl text-gray-400 mb-4">.NET Developer</p>
+                <p className="text-lg md:text-xl lg:text-2xl text-gray-400 mb-4">Server Admin</p>
                 {/* Download CV Button */}
                 <a
                   href="/path-to-your-cv.pdf"
@@ -41,25 +41,26 @@ const HomePage = () => {
           </section>
 
           <section id="about" className="mb-16 bg-gray-900 py-12 px-6">
-            <h2 className="text-center text-xl font-medium mb-2 text-gray-400">Get To Know More</h2>
-            <h3 className="text-center text-4xl font-extrabold text-red-500 mb-10">About Me</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
-                <h4 className="text-2xl font-bold text-gray-200 mb-2">Loves</h4>
-                <p className="text-gray-400">Developing Systems</p>
-              </div>
-              <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
-                <h4 className="text-2xl font-bold text-gray-200 mb-2">BSc. CSIT</h4>
-                <p className="text-gray-400">Tribhuvan University</p>
-              </div>
-            </div>
-            <p className="text-gray-300 text-center text-lg leading-relaxed max-w-2xl mx-auto md:block hidden">
-              I'm a passionate Full Stack Developer with  experience in building web applications. 
-              I graduated with a BSc in Computer Science and Information Technology from Tribhuvan University, 
-              and I have developed a strong foundation in both front-end and back-end development. 
-              My goal is to create scalable, user-friendly solutions that solve real-world problems efficiently.
-            </p>
-          </section>
+  <h2 className="text-center text-xl font-medium mb-2 text-gray-400">Get To Know More</h2>
+  <h3 className="text-center text-4xl font-extrabold text-red-500 mb-10">About Me</h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+    <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
+      <h4 className="text-2xl font-bold text-gray-200 mb-2">Loves</h4>
+      <p className="text-gray-400">Automating & Deploying Systems</p>
+    </div>
+    <div className="bg-gray-800 p-8 rounded-lg shadow-lg flex items-center justify-center flex-col hover:shadow-2xl transition-shadow duration-300">
+      <h4 className="text-2xl font-bold text-gray-200 mb-2">BSc. CSIT</h4>
+      <p className="text-gray-400">Tribhuvan University</p>
+    </div>
+  </div>
+  <p className="text-gray-300 text-center text-lg leading-relaxed max-w-2xl mx-auto md:block hidden">
+    I'm a passionate DevOps Engineer focused on building reliable, scalable, and automated infrastructure. 
+    I specialize in containerization, CI/CD pipelines, cloud services, system monitoring, and deployment workflows. 
+    With a strong foundation in Linux, networking, and cloud technologies, I aim to bridge the gap between development and operations 
+    — improving efficiency, collaboration, and delivery speed while maintaining system stability.
+  </p>
+</section>
+
 <Project />
 <Skills />
 </div>
