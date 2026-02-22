@@ -199,7 +199,7 @@ const Skills = () => {
       <h3 className="text-center text-4xl font-extrabold text-red-500 mb-10">
         DevOps Engineer Skills
       </h3>
-
+<h1>h</h1>
       {/* DevOps Skills Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {devopsSkills.map((skill) => (
